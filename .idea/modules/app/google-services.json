@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323552737928",
+    "firebase_url": "https://global-united-nations-1404d.firebaseio.com",
+    "project_id": "global-united-nations-1404d",
+    "storage_bucket": "global-united-nations-1404d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323552737928:android:cdc600c6b696f3cb967d3d",
+        "android_client_info": {
+          "package_name": "dev.rao.globalunitednations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323552737928-12mlhebeuslgkackvc75pggg8hfm7r24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.rao.globalunitednations",
+            "certificate_hash": "1c46c5078a5c9d79d648c073a9211e4fffe6147e"
+          }
+        },
+        {
+          "client_id": "323552737928-acga340g5po96gj38g63lb4epd5pf3df.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeSRMwmI1p_TtLbtWYtPQ44dKHQPglGTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323552737928-acga340g5po96gj38g63lb4epd5pf3df.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
