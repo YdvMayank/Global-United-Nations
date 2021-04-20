@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.rao.globalunitednations">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Global UN"
+        android:roundIcon="@mipmap/gun_icon_blue"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mun.PdfOpenner"></activity>
+        <activity android:name=".news.DetailNewsActivity"
+            android:parentActivityName=".news.NewsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThme"/>
+        <activity android:name=".walkthrough.WalkThroughActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".data.DataActivity"
+            android:label="Global UN"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThme" />
+        <activity android:name=".mun.MunActivity"
+            android:label="Global United Nations"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThme"/>
+        <activity android:name=".internship.Internship"
+            android:label="Global UN"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThme"/>
+        <activity android:name=".news.NewsActivity"
+            android:label="Global UN"
+            android:theme="@style/MyThme"/>
+        <activity android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+    </application>
+
+</manifest>
